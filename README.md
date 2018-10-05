@@ -37,6 +37,10 @@ console.info(time4.milliseconds); // 250
 console.info(time4.toString()); // 12:08:30:01.250
 ```
 
+## remarks
+
+right now when calling the ctor and using more than a single number it much be inside an array, this is because of https://github.com/Microsoft/TypeScript/issues/27532
+
 [npm-image]: https://img.shields.io/npm/v/ts-timespan.svg
 [npm-url]: https://npmjs.org/package/ts-timespan
 [downloads-image]: https://img.shields.io/npm/dm/ts-timespan.svg
