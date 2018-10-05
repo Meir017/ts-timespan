@@ -1,6 +1,6 @@
 {
   "name": "ts-timespan",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "TimeSpan library inspired by C#'s TimeSpan",
   "main": "dist/timespan.js",
   "scripts": {
