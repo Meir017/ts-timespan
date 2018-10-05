@@ -1,0 +1,29 @@
+{
+  "name": "ts-timespan",
+  "version": "0.1.0",
+  "description": "TimeSpan library inspired by C#'s TimeSpan",
+  "main": "dist/timespan.js",
+  "scripts": {
+    "test": "ts-node node_modules/jasmine/bin/jasmine test/**/*spec.ts --reporter=jasmine-console-reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meir017/ts-timespan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meir017/ts-timespan/issues"
+  },
+  "homepage": "https://github.com/Meir017/ts-timespan#readme",
+  "dependencies": {
+    "typescript": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.9",
+    "jasmine": "^3.2.0",
+    "jasmine-console-reporter": "^3.1.0",
+    "ts-node": "^7.0.1"
+  }
+}
