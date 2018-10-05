@@ -155,6 +155,3 @@ export class TimeSpan {
         return new TimeSpan(value * ticksPerSecond);
     }
 }
-
-const time = new TimeSpan([6, 0, 0]);
-console.info(`days ticksPerDay:${ticksPerDay} / time:${time.ticks} = ${time.ticks / ticksPerDay}`);
