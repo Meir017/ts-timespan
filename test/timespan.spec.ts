@@ -91,6 +91,21 @@ describe('the TimeSpan class', () => {
             expect(new TimeSpan([2, 6, 15, 6, 156]).seconds).toBe(6);
         });
     });
+
+    describe('the .milliseconds property', () => {
+        it('should work with zero', () => {
+            expect(TimeSpan.zero.milliseconds).toBe(0);
+        });
+        it('should work with whole milliseconds', () => {
+            expect(new TimeSpan([0, 0, 0, 0, 6]).milliseconds).toBe(6);
+        });
+        it('should work with negative milliseconds', () => {
+            expect(new TimeSpan([0, 0, 0, 0, -6]).milliseconds).toBe(-6);
+        });
+        it('should round down milliseconds', () => {
+            expect(new TimeSpan([2, 6, 15, 6, 156]).milliseconds).toBe(156);
+        });
+    });
 })
 
 function verifyTimeSpan(ts: TimeSpan, days: number, hours: number, minutes: number, seconds: number, milliseconds: number) {
