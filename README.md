@@ -1,6 +1,6 @@
 # ts-timespan
 
-[![CircleCI](https://circleci.com/gh/Meir017/ts-timespan/tree/master.svg?style=svg)](https://circleci.com/gh/Meir017/ts-timespan/tree/master)
+[![Node.js CI](https://github.com/Meir017/ts-timespan/actions/workflows/test.yml/badge.svg)](https://github.com/Meir017/ts-timespan/actions/workflows/test.yml)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 
