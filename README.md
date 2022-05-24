@@ -1,6 +1,7 @@
 # ts-timespan
 
 [![Node.js CI](https://github.com/Meir017/ts-timespan/actions/workflows/test.yml/badge.svg)](https://github.com/Meir017/ts-timespan/actions/workflows/test.yml)
+[![CodeQL](https://github.com/Meir017/ts-timespan/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Meir017/ts-timespan/actions/workflows/codeql-analysis.yml)
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 
